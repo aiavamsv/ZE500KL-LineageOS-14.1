@@ -7,7 +7,7 @@
 | Файл | Назначение | Размер | SHA-256 | Источник |
 |---|---|---:|---|---|
 | `twrp-3.0.2.0-Z00E-MM.img` | Временный TWRP для штатного Android 6.0.x / Marshmallow перед разблокировкой bootloader | 18,044,928 bytes | `4826bc049eecdb0821fa664d5fd034d3437f98dfafed8b34498014f7818f50a6` | GitHub release LightouchDev |
-| `ZE500KL_BootloaderUnlock.zip` | Неофициальная разблокировка bootloader ZE500KL | 3,395 bytes | `0377dacef945220753cd68aacc95be2d44ecd6e627aa174c771a6c585be3bd73` | Старый unlock-пакет ZE500KL; сохраняйте локальную проверенную копию |
+| `ZE500KL_BootloaderUnlock.zip` | Неофициальная разблокировка bootloader ZE500KL | 3,395 bytes | `0377dacef945220753cd68aacc95be2d44ecd6e627aa174c771a6c585be3bd73` | [Копия в этом репозитории](./files/ZE500KL_BootloaderUnlock.zip) |
 | `TWRP-3.2.0-Z00ED-20171205.img` | TWRP для установки LineageOS на Z00ED | 19,773,440 bytes | `17ce666634a596cdabc9d48374ce863aa55190dadb189f0ee7de9915addf37d9` | SourceForge Android_Rom_OTA |
 | `lineage-14.1-20180526-UNOFFICIAL-Z00ED.zip` | LineageOS 14.1 / Android 7.1.2 для Z00ED | ~533.6 MB на SourceForge / ~509 MiB в `ls -lh` | `5050cbd8f90450f92118224f879e9164b9a00e39af9857f70aa9cb5205880b6d` | SourceForge Android_Rom_OTA |
 
@@ -73,9 +73,13 @@ Device unlocked: true
 0377dacef945220753cd68aacc95be2d44ecd6e627aa174c771a6c585be3bd73
 ```
 
+### Копия в этом репозитории
+
+[Скачать `ZE500KL_BootloaderUnlock.zip`](./files/ZE500KL_BootloaderUnlock.zip)
+
 ### Важное замечание
 
-Старые публичные зеркала этого файла нестабильны или исчезли. Если у вас есть проверенная копия с указанной SHA-256, сохраните её отдельно.
+Старые публичные зеркала этого файла нестабильны или исчезли. В этот репозиторий добавлена именно проверенная копия с SHA-256, указанной выше. Всё равно проверяйте контрольную сумму перед прошивкой.
 
 Не используйте случайный файл с тем же именем без проверки SHA-256.
 
